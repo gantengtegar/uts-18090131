@@ -22,5 +22,5 @@ Route::put('/pegawai/update/{id}', [PegawaiController::class, 'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiController::class, 'delete']);
 // Route::get('/pegawai', 'PegawaiController@index');
 Route::get('/', function () {
-    return view('welcome');
+    return view('pegawai');
 });
